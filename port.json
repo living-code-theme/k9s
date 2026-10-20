@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "k9s",
+  "slug": "k9s",
+  "group": "CLI & TUI",
+  "emoji": "🐕",
+  "description": "Living Code for k9s. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://k9scli.io",
+  "quick": "See installation instructions",
+  "aliases": [
+    "k9s"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.yaml",
+    "living-code-night.yaml",
+    "living-code-paper.yaml",
+    "living-code-signal.yaml"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "k9s running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "k9s running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "k9s running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "k9s running Living Code Signal"
+    }
+  ]
+}
